@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simón Rinaudo | Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="nav-content">
+            <a href="#sobre-mi" class="logo">SR<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi" class="nav-link active">Sobre Mí</a></li>
+                <li><a href="#programacion" class="nav-link">Programación</a></li>
+                <li><a href="#contenido" class="nav-link">Creación de Contenido</a></li>
+            </ul>
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECCIÓN 1: SOBRE MÍ -->
+        <section id="sobre-mi" class="section">
+            <div class="hero reveal">
+                <div class="hero-image-container">
+                    <img src="assets/yo.jpeg" alt="Simón Rinaudo" class="profile-img">
+                </div>
+                <div class="hero-text">
+                    <h1 class="gradient-text">Hola, soy Simón Rinaudo</h1>
+                    <p class="hero-description">
+                        Tengo 19 años y soy estudiante de Ingeniería en Sistemas. Soy un desarrollador de software en
+                        proceso,
+                        creador de contenido digital y un entusiasta absoluto de la tecnología. Me destaco por mi
+                        proactividad
+                        y considero que mi mayor habilidad es mi capacidad para aprender cosas nuevas a gran velocidad
+                        y adaptarme a cualquier desafío 🦾.
+                    </p>
+                    <div class="contact-chips">
+                        <a href="mailto:rinaudosimon@gmail.com" class="chip glass-btn">
+                            <i class="fas fa-envelope"></i> rinaudosimon@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/simon-rinaudo-3862b93b0/" target="_blank"
+                            class="chip glass-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education and Experience -->
+            <div class="grid-2 reveal">
+                <!-- Educación -->
+                <div class="timeline-container glass-card">
+                    <h2 class="section-subtitle"><i class="fas fa-graduation-cap"></i> Educación</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Ingeniería en Sistemas</h3>
+                                <p class="institution">UTN - Universidad Tecnológica Nacional (Villa María, Córdoba)</p>
+                                <span class="date">Actualmente cursando el 2do año</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Bachiller</h3>
+                                <p class="institution">Escuela La Santísima Trinidad</p>
+                                <span class="date">Finalizado en 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiencia -->
+                <div class="experience-container glass-card" id="tesis-card">
+                    <h2 class="section-subtitle"><i class="fas fa-briefcase"></i> Experiencia Laboral</h2>
+                    <div class="job">
+                        <div class="job-header">
+                            <div class="job-title-company">
+                                <h3>Tesis Informática S.R.L.</h3>
+                                <div class="tesis-colors">
+                                    <span class="color-dot red"></span>
+                                    <span class="color-dot yellow"></span>
+                                    <span class="color-dot blue"></span>
+                                    <span class="color-dot white"></span>
+                                </div>
+                            </div>
+                            <span class="date">Febrero 2024 - Actualidad</span>
+                        </div>
+                        <p class="job-description">
+                            Trabajo de tecnico en el armado de equipos y gestiono estratégicamente las redes sociales.
+                            También realizo mantenimiento de la web para asegurar el correcto funcionamiento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-container reveal">
+                <a href="https://drive.google.com/file/d/1uAXJdokTD7K9RTd6HxrhV6qcCNH5dS5u/view?usp=drive_link"
+                    target="_blank" class="glow-on-hover btn-primary">
+                    <i class="fas fa-certificate"></i> Ver Certificados y Cursos
+                </a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: PROGRAMACIÓN -->
+        <section id="programacion" class="section">
+            <h2 class="section-title reveal">Programación <span class="accent">_</span></h2>
+            <p class="section-description reveal">
+                Especializado en el desarrollo de aplicaciones web de alto rendimiento, sistemas RAG,
+                integración de APIs y automatización inteligente de procesos corporativos.
+            </p>
+
+            <div class="tech-stack grid reveal">
+                <!-- Python -->
+                <div class="tech-card glass-card">
+                    <i class="devicon-python-plain colored"></i>
+                    <span>Python</span>
+                </div>
+                <!-- TypeScript -->
+                <div class="tech-card glass-card">
+                    <i class="devicon-typescript-plain colored"></i>
+                    <span>TypeScript</span>
+                </div>
+                <!-- FastAPI -->
+                <div class="tech-card glass-card">
+                    <i class="devicon-fastapi-plain colored"></i>
+                    <span>FastAPI</span>
+                </div>
+                <!-- HTML5 -->
+                <div class="tech-card glass-card">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span>HTML5</span>
+                </div>
+                <!-- CSS3 -->
+                <div class="tech-card glass-card">
+                    <i class="devicon-css3-plain colored"></i>
+                    <span>CSS3</span>
+                </div>
+                <!-- Astro (Use custom icon since Devicon doesn't have it natively sometimes or use text) -->
+                <div class="tech-card glass-card">
+                    <svg viewBox="0 0 256 329" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"
+                        width="40" height="40">
+                        <path
+                            d="M110.165 3.328a24.896 24.896 0 0 1 35.671 0l94.863 103.52c9.204 10.046 5.8 26.248-6.173 30.64l-93.743 34.407a51.879 51.879 0 0 0-32.784 35.122l-12.016 41.516c-17.587 31.841-52.012 30.342-65.032.257L1.139 179.375C-6.52 161.597 8.019 140.916 27.513 141.27l90.697 1.636a49.199 49.199 0 0 0 32.748-15.004l8.36-8.91C164.843 113.111 161.802 104 153 104H96.349c-11.455 0-21.32-7.85-23.826-19.011l-3.23-14.39C66.115 56.417 80.99 42.112 95.821 42l15.548-.117a15.228 15.228 0 0 0 11.082-26.046L110.165 3.328Z"
+                            fill="#FF5D01" />
+                    </svg>
+                    <span>Astro</span>
+                </div>
+                <!-- Supabase -->
+                <div class="tech-card glass-card">
+                    <i class="devicon-supabase-plain colored"></i>
+                    <span>Supabase</span>
+                </div>
+                <!-- n8n -->
+                <div class="tech-card glass-card">
+                    <!-- n8n custom svg -->
+                    <svg viewBox="0 0 117 117" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M47.886 64.9c-2.88 0-5.875 1.042-8.038 3.013l-19.143 17.542a10.966 10.966 0 1 1-14.801-16.142l19.142-17.543c4.102-3.759 5.845-9.613 4.545-15.253a16.88 16.88 0 0 0-14.316-12.822 17.07 17.07 0 0 0-16.32 8.051 10.966 10.966 0 1 1-18.91-11.089 38.971 38.971 0 0 1 37.311-18.428 38.563 38.563 0 0 1 32.723 29.351 38.751 38.751 0 0 1-10.42 34.806l-19.18 17.576a1.272 1.272 0 1 0 1.714 1.87l19.144-17.544c4.102-3.758 5.845-9.612 4.545-15.253A16.88 16.88 0 0 0 31.567 40.2a17.07 17.07 0 0 0-16.319 8.05 1.273 1.273 0 1 0 2.195 1.288 14.512 14.512 0 0 1 13.883-6.848c6.641.87 11.907 6.038 12.181 12.68.256 6.22-3.14 12.028-8.818 15.23l19.18-17.575a20.088 20.088 0 0 1 13.437-5.15z"
+                            fill="#EA4B71" />
+                        <path
+                            d="M68.73 40.09c2.88 0 5.874-1.041 8.038-3.013L95.91 19.536a10.966 10.966 0 1 1 14.801 16.142L91.569 53.219c-4.102 3.76-5.845 9.614-4.545 15.254a16.88 16.88 0 0 0 14.316 12.822 17.07 17.07 0 0 0 16.32-8.051 10.966 10.966 0 1 1 18.91 11.089 38.971 38.971 0 0 1-37.311 18.428 38.562 38.562 0 0 1-32.722-29.35 38.75 38.75 0 0 1 10.42-34.807l19.18-17.576a1.272 1.272 0 1 0-1.714-1.87L75.28 36.697c-4.101 3.759-5.844 9.613-4.544 15.253a16.88 16.88 0 0 0 14.316 12.823 17.07 17.07 0 0 0 16.319-8.051 1.272 1.272 0 0 0-2.196-1.288 14.512 14.512 0 0 1-13.882 6.848c-6.641-.87-11.907-6.038-12.181-12.68-.256-6.22 3.14-12.029 8.818-15.23L62.75 51.948a20.087 20.087 0 0 1-13.437 5.15z"
+                            fill="#EA4B71" />
+                    </svg>
+                    <span>n8n</span>
+                </div>
+            </div>
+
+            <div class="cta-container reveal">
+                <a href="https://github.com/divisco" target="_blank" class="glow-on-hover btn-primary">
+                    <i class="fab fa-github"></i> Explorar mis repositorios y proyectos en GitHub
+                </a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: CREACIÓN DE CONTENIDO -->
+        <section id="contenido" class="section">
+            <h2 class="section-title reveal">Creación de Contenido <span class="accent">_</span></h2>
+
+            <div class="skills-grid reveal">
+                <div class="skill-card glass-card">
+                    <div class="skill-icon"><i class="fas fa-video"></i></div>
+                    <h3>Edición de Video Profesional</h3>
+                    <p>Montaje, colorimetría y retención de audiencia utilizando CapCut Pro.</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Diseño Gráfico Publicitario</h3>
+                    <p>Creación de identidades visuales e imágenes promocionales de alto impacto visual con Canva.</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Growth Marketing</h3>
+                    <p>Creación y gestión de campañas de conversión mediante Meta Ads.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-section reveal">
+                <h3 class="subsection-title">Portafolio de Videos (Shorts)</h3>
+                <div class="carousel">
+                    <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="carousel-track-container">
+                        <div class="carousel-track">
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/_sZJfEJ0sK4" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/P1BRU2ZeFKA" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/-oB9qr9w7OI" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/pUTSUKuElFo" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/-W_qDJI_TT0" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/6TMikpFJLzA" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/KXdc0i0OMSA" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/xbvm-__xKXA" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-slide">
+                                <div class="video-wrapper glass-container">
+                                    <iframe src="https://www.youtube.com/embed/vzKM7nIfFjc" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="cta-container reveal">
+                <a href="https://drive.google.com/drive/folders/1QGewZM5rSMBNqXQqMK_eegWds5r6uvTr?usp=sharing"
+                    target="_blank" class="glow-on-hover btn-primary">
+                    <i class="fas fa-folder-open"></i> Ver carpeta completa de proyectos audiovisuales
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Simón Rinaudo. Construido con pasión y tecnología.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
